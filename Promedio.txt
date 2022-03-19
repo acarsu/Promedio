@@ -1,0 +1,30 @@
+//Escriba un programa que calcule el promedio de 4 notas ingresada por el usuario
+package circulos;
+
+import java.util.Scanner;
+public class circulos {
+
+    
+    public static void main(String[] args) {
+     Scanner entrada = new Scanner(System.in);
+     
+        int pnota = 0, snota = 0, tnota = 0, cnota = 0;
+        double promedio  ;
+        
+        System.out.println("Primera nota: ");
+        promedio = entrada.nextDouble();
+        
+         System.out.println("Segunda nota: ");
+        promedio = entrada.nextDouble();
+        
+         System.out.println("tercera nota: ");
+        promedio = entrada.nextDouble();
+        
+         System.out.println("cuarta nota: ");
+        promedio = entrada.nextDouble();
+        
+        promedio = (pnota + snota + tnota + cnota)/ 4;
+        System.out.println("El promedio es: " + promedio + "");
+    }
+    
+}
